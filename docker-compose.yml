@@ -19,7 +19,8 @@ services:
         [WP-API]https://github.com/WP-API/WP-API/archive/master.zip,
         [local]zulu-plugin
       THEMES: >-
-        [local]zulu
+        [local]zulu,
+        [local]zulu-child
       #SEARCH_REPLACE: yoursite.com,localhost:8080
       WP_DEBUG: 'true'
   db:
